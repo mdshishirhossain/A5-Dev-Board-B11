@@ -54,3 +54,8 @@ document.getElementById('theme-btn')
         var randomColor = getRandomColor();
         document.body.style.backgroundColor = randomColor;
     })
+
+
+document.getElementById('dicover-new').addEventListener('click', function () {
+    window.location.href = './blog.html'
+})
